@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+	int valor1;
+	int valor2;
+	int resultado1;
+	int resultado2;
+	int resultado3;
+	float resultado4;
+	
+	printf("");
+	scanf("%d", &valor1);
+	printf("");
+	scanf("%d", &valor2);
+	resultado1 = valor1 + valor2 ;
+	resultado2 = valor1 - valor2 ;
+	resultado3 = valor1 * valor2 ;
+	resultado4 = (float)valor1 / valor2 ;
+	printf("soma %d\n", resultado1);
+	printf("subtracao %d\n", resultado2);
+	printf("multplicacao %d\n", resultado3);
+	printf("divisao %.2f", resultado4);
+	return 0;
+}
